@@ -32,6 +32,36 @@ text = \lyricmode {
   but for her a -- lone, whom I whol -- ly give you...
 }
 
+alto = \relative c'' {
+  g2 a g g4( fis) g2 fis fis( e) \bar "|" e1 d d \bar "|" \break
+  e2 e e e4 e e e \bar "|" fis( g) g2 e4( d c2) \bar "|" c1 \bar "|" \break
+  g2 a g g4 fis g2( fis( fis) e) \bar "|" e2. e4 d2 d d1 \bar "|" \break
+  e2 e e e4 e e e fis( g) \bar "|" g2( e4 d c2) \bar "|" c1 \bar "|" \break
+  g2 a g( g4 fis) \bar "|" g2 fis fis( e) \bar "|" e2. e4 d2 d d1 \bar "|" \break
+  e2 e e4 e e e e e \bar "|" fis( g( g2) e4 d c2 \bar "|" c1) \bar "|" \break
+  g2 a g( g4 fis g2) fis fis( e) \bar "|" e2. e4 d2 d d \fine
+}
+
+tenor = \relative c' {
+  d2 d e e4( c) e2 b b1 \bar "|" a1 a b \bar "|" \break
+  c2 c c c4 c c c \bar "|" c4( d) d( e) a2( g) \bar "|" a1 \bar "|" \break
+  d2 d e e4 c e2 b b1 \bar "|" a2. a4 a2 a b4 \bar "|" \break
+  c2 c c c4 c c c c4( d) \bar "|" d( e a2 g) \bar "|" a1 \bar "|" \break
+  d2 d e( e4 c) \bar "|" e2 b b1 \bar "|" a2. a4 a2 a b4 \bar "|" \break
+  c2 c c4 c c c c c \bar "|" c4( d( d) e a2 g \bar "|" a1) \bar "|" \break
+  d2 d e( e4 c e2) b b1 \bar "|" a2. a4 a2 a b2 b \fine
+}
+
+bass = \relative c' {
+  g2 fis e c4( b) c2 d e1 \bar "|" c1 d g \bar "|" \break
+  a2 a a a4 a a a \bar "|" b2 c c( e,) \bar "|" f1 \bar "|" \break
+  g2 fis e c4 b c2( d e1) \bar "|" c2. c4 d2 d g1 \bar "|" \break
+  a2 a a a4 a a a b2 \bar "|" c1( e,2) \bar "|" f1 \bar "|" \break
+  g2 fis e( c4 b) \bar "|" c2 d e1 \bar "|" c2. c4 d2 d g1 \bar "|" \break
+  a2 a a4 a a a a a \bar "|" b2( c4 e, \bar "|" f1) \bar "|" \break
+  g2 fis e( c4 b c2) d e1 \bar "|" c2. c4 d2 d g g \fine
+}
+
 \score {
   <<
   \new Staff {
