@@ -1,3 +1,2 @@
-#+TITLE: Intake Form
 - Which lanugage(s) do you want the Mass to be in?
 -
