@@ -51,6 +51,7 @@ _V._ Let God arise; let his foes be scattered. \* Let those who hate him flee fr
 = Introductory Rites
 
 = Gloria - Missa VII de Angelis
+/*
 #grid(
   columns: 2,
   gutter: 18pt,
@@ -107,7 +108,7 @@ _V._ Let God arise; let his foes be scattered. \* Let those who hate him flee fr
   in the glory of God the Father.\
   Amen.],
 )
-
+*/
 = First Reading
 _Sir 3: 2-6, 12-14_
 
@@ -173,7 +174,7 @@ Rejoice!
 = Preface
 = Sanctus
 _Kevin Allen - Missa Stelliferi Conditor orbis (1998)_
-
+/*
 #grid(
   columns: 2,
   gutter: 18pt,
@@ -193,6 +194,7 @@ _Kevin Allen - Missa Stelliferi Conditor orbis (1998)_
   Blessed is he who comes in the name of the Lord.\
   Hosanna in the highest.],
 )
+*/
 = Roman Canon
 == Memorial Acclamation
 #grid(
@@ -209,6 +211,7 @@ _Kevin Allen - Missa Stelliferi Conditor orbis (1998)_
 = Our Father
 = Agnus Dei
 _Kevin Allen - Missa Stelliferi Conditor orbis (1998)_
+/*
 #grid(
   columns: 2,
   gutter: 18pt,
@@ -230,7 +233,7 @@ _Kevin Allen - Missa Stelliferi Conditor orbis (1998)_
   Lamb of God, you take away the sins of the world,\
   grant us peace.],
 )
-
+*/
 = Communion
 == Antiphon
 _Lk 2: 48-49_
